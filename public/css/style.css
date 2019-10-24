@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?epnods');
+  src:  url('../fonts/icomoon.eot?epnods#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?epnods') format('truetype'),
+    url('../fonts/icomoon.woff?epnods') format('woff'),
+    url('../fonts/icomoon.svg?epnods#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-password:before {
+  content: "\e900";
+}
+.icon-avatar:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-slack:before {
+  content: "\e906";
+}
+.icon-youtube:before {
+  content: "\e907";
+}
+.icon-mastercard .path1:before {
+  content: "\e908";
+  color: rgb(226, 87, 76);
+}
+.icon-mastercard .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(244, 180, 89);
+}
+.icon-visa .path1:before {
+  content: "\e90a";
+  color: rgb(35, 148, 188);
+}
+.icon-visa .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(239, 199, 94);
+}
+.icon-email:before {
+  content: "\e90c";
+}
+.icon-phone:before {
+  content: "\e90d";
+}
+.icon-location:before {
+  content: "\e90e";
+}
+.icon-website:before {
+  content: "\e90f";
+}
