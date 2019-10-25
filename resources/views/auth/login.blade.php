@@ -13,10 +13,10 @@
                 </div>
                 <div class="col-12 col-md-8 h-100 bg-white">
                     <div class="auto-form-wrapper d-flex align-items-center justify-content-center flex-column">
-                        <div class="nav-get-started">
-                            <p>Don't have an account?</p>
-                            <a class="btn get-started-btn" href="register">GET STARTED</a>
-                        </div>
+{{--                        <div class="nav-get-started">--}}
+{{--                            <p>Don't have an account?</p>--}}
+{{--                            <a class="btn get-started-btn" href="register">GET STARTED</a>--}}
+{{--                        </div>--}}
                         <form method="post" action="{{route('login')}}">
                             @include('notification')
 
