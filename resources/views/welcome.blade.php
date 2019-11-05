@@ -86,7 +86,7 @@
     <section class="info-area section-gap">
         <div class="container">
             <div class="title text-center">
-                <h1 class="mb-10">Causes</h1>
+                <h1 class="mb-10">Projects</h1>
                 <p>There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring.</p>
             </div>
 

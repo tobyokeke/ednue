@@ -3,7 +3,8 @@
 @section('title','Causes')
 
 @section('content')
-
+    <link href="{{url('css/photoswipe.css')}}" rel="stylesheet">
+    <link href="{{url('css/default-skin/default-skin.css')}}" rel="stylesheet">
 
     <!-- start banner Area -->
     <section class="banner-area relative about-banner" id="home">
@@ -12,7 +13,7 @@
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="about-content col-lg-12">
                     <h1 class="text-black">
-                        Causes
+                        Projects
                     </h1>
                 </div>
             </div>
@@ -32,23 +33,212 @@
 
             <div class="row align-items-center">
                 <div class="col-lg-6 no-padding info-area-left">
-                    <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{url('images/pvc/1.jpg')}}" alt="">
                 </div>
                 <div class="col-lg-6 info-area-right">
-                    <h1>Education</h1>
+                    <h1>Ednue pvc campaign </h1>
                     <p>
-                        Ednue foundation is an initiative committed to Creating Solutions that foster development in the society by Educating the community and positively shaping the mindset and perspectives through carefully designed programs , with a robust team of Passionate Creatives, highly experienced Economist and psychologists,
-                        social Issues are analysed and carefully presented to the team for a special approach to tackling human capital deficit , ideal citizen participation and productivity , contribution to Sustainable social stability in the community, and  ideal service delivery in governance all through Key programs in free social Education  ,
-                        through our Excelleny volunteer network we also offer free ideal opportunities to positively impact on the human capital through vocational skills acquisition, Internship services, and Tutoring services.
+
+                        The Ednue foundation Team toured around different registration points around Abuja to Educate the spectators on The importance of all votes and help out the officials in controlling  the crowd to carry out an organized registration while also selflessly providing essentials for some processes .
                     </p>
                     <br>
-                    <a href="{{route('frontend.cause.details',['cause' => "education"])}}" class="genric-btn danger circle arrow">Learn More<span class="lnr lnr-arrow-right"></span></a>
+                    <a  id="openGallery1" href="#" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
                 </div>
 
             </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 info-area-right pl-3">
+                    <h1>Ednue Annual Conference : voting for socio economic development</h1>
+                    <p>
+                        The Ednue foundations Annual conference Aimed at educating young people on the effects of voting right and its importance to the socio economic development for an inspired future that would foster ideal social Excellence for growth .
+                    </p>
+                    <br>
+                    <a href="#" id="openGallery2" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                </div>
+
+                <div class="col-lg-6 no-padding info-area-left">
+                    <img class="img-fluid" src="{{url('images/conference/1.jpg')}}" alt="">
+                </div>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 no-padding info-area-left">
+                    <img class="img-fluid" src="{{url('images/water/1.jpg')}}" alt="">
+                </div>
+                <div class="col-lg-6 info-area-right">
+                    <h1>A bottle of water because your vote counts</h1>
+                    <p>
+                        The Ednue foundation at the Fbs ole football tournament educated young spectators on why they had to be interested in getting a pvc by offering a bottle of water to stay hydrated at the venue if you were interested in getting registered or just had your card ready , Ednue foundation also provided spectators with important information to aid all efforts of future registration ,and kept over 250 people hydrated and informed.
+                    </p>
+                    <br>
+                    <a href="#" id="openGallery3" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                </div>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 info-area-right pl-3">
+                    <h1>Mental Health Awareness </h1>
+                    <p>
+                        The Ednue foundation orgaanized an art and photography gala  that was aimed at inspiring hope for depressed people and also a free opportunity to get educated on how to manage, cure and help people in depression by our robust team of professional psychologists and guidance and counseling personnel .
+                    </p>
+                    <br>
+                    <a href="#" id="openGallery4" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                </div>
+
+                <div class="col-lg-6 no-padding info-area-left">
+                    <img class="img-fluid" src="{{url('images/health/1.jpg')}}" alt="">
+                </div>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 no-padding info-area-left">
+                    <img class="img-fluid" src="{{url('images/sdg/14.jpg')}}" alt="">
+                </div>
+                <div class="col-lg-6 info-area-right">
+                    <h1>UN Sdg story presentation</h1>
+                    <p>
+                        The Ednue team was invited by the Sdg story to present their beautiful work and share how they have been making an impact with all their initiatives and programs over the year ,to inspire a new generation of young people with the interest of fostering development and making an impact in the society.
+                    </p>
+                    <br>
+                    <a href="#" id="openGallery5" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                </div>
+
+            </div>
+
         </div>
     </section>
     <!-- End popular-courses Area -->
+
+
+
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe.
+             It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides.
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        $(document).ready(function(){
+            var data1 = '{!! $requiredImages1 !!}';
+            var data2 = '{!! $requiredImages2 !!}';
+            var data3 = '{!! $requiredImages3 !!}';
+            var data4 = '{!! $requiredImages4 !!}';
+            var data5 = '{!! $requiredImages5 !!}';
+
+            var imageItems1 = JSON.parse(data1);
+            var imageItems2 = JSON.parse(data2);
+            var imageItems3 = JSON.parse(data3);
+            var imageItems4 = JSON.parse(data4);
+            var imageItems5 = JSON.parse(data5);
+
+            $('.carousel').carousel();
+
+
+            function openGallery(items) {
+
+                console.log('clicked');
+
+
+                var pswpElement = document.querySelectorAll('.pswp')[0];
+
+                // define options (if needed)
+                var options = {
+                    // optionName: 'option value'
+                    // for example:
+                    index: 0 // start at first slide
+                };
+
+                // Initializes and opens PhotoSwipe
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+                gallery.init();
+
+            }
+
+
+            $('#openGallery1').on('click',function(){
+                openGallery(imageItems1);
+            });
+            $('#openGallery2').on('click',function(){
+                openGallery(imageItems2);
+            });
+            $('#openGallery3').on('click',function(){
+                openGallery(imageItems3);
+            });
+            $('#openGallery4').on('click',function(){
+                openGallery(imageItems4);
+            });
+            $('#openGallery5').on('click',function(){
+                openGallery(imageItems5);
+            });
+
+
+        });
+
+    </script>
+
 
 
 @endsection

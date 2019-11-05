@@ -29,6 +29,12 @@
     <link rel="stylesheet" href="{{url('css/owl.carousel.css')}}">
     <link rel="stylesheet" href="{{url('css/jquery-ui.css')}}">
     <link rel="stylesheet" href="{{url('css/main.css')}}">
+    <script src="{{url('js/vendor/jquery-2.2.4.min.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="{{url('js/vendor/bootstrap.min.js')}}"></script>
+    <script src="{{url('js/photoswipe.min.js')}}"></script>
+    <script src="{{url('js/photoswipe-ui-default.min.js')}}"></script>
+
 </head>
 <body>
 <header id="header" id="home">
@@ -51,13 +57,15 @@
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-                <a href="{{url('/')}}"><img src="{{url('img/logodark.png')}}" alt="Ednue Logo" title="" /></a>
+                <a href="{{url('/')}}"><img src="{{url('img/logodark.png')}}" alt="Ednue Logo" title="" /><br>
+                <small style="color:black;float:right;">Inspired Future</small></a>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li><a href="{{route('frontend.home')}}">Home</a></li>
                     <li><a href="{{route('frontend.about')}}">About</a></li>
-                    <li><a href="{{route('frontend.causes')}}">Causes</a></li>
+                    <li><a href="{{route('frontend.causes')}}">Projects</a></li>
+                    <li><a href="{{route('frontend.team')}}">Our Team</a></li>
                     <li><a href="{{route('frontend.contact')}}">Contact</a></li>
                     <li><a href="#" class="join" data-toggle="modal" data-target="#exampleModal">Join Us!</a></li>
                 </ul>
@@ -76,26 +84,38 @@
     <div class="container ">
         <div class="row ">
 
-            <div class="col-lg-4 col-md-4 col-sm-4 ">
-                <div class="single-footer-widget">
-                    <h4>Causes</h4>
-                    <ul>
-                        <li><a href="{{route('frontend.cause.details' ,['cause' => 'education'])}}">Education</a></li>
-                    </ul>
-                </div>
-            </div>
+{{--            <div class="col-lg-4 col-md-4 col-sm-4 ">--}}
+{{--                <div class="single-footer-widget">--}}
+{{--                    <h4>Projects</h4>--}}
+{{--                    <ul>--}}
+{{--                        <li><a href="{{route('frontend.cause.details' ,['cause' => 'education'])}}">Education</a></li>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
+{{--            </div>--}}
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="single-footer-widget">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="{{route('frontend.home')}}">Home</a></li>
                         <li><a href="{{route('frontend.about')}}">About</a></li>
+                        <li><a href="{{route('frontend.causes')}}">Projects</a></li>
                         <li><a href="{{route('frontend.contact')}}">Contact us</a></li>
 
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
+
+{{--            <div class="col-lg-4 col-md-4 col-sm-4 ">--}}
+{{--                <div class="single-footer-widget">--}}
+{{--                    <h4>Projects</h4>--}}
+{{--                    <ul>--}}
+{{--                        <li><a href="{{route('frontend.cause.details' ,['cause' => 'education'])}}">Education</a></li>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4 offset-4">
                 <div class="single-footer-widget">
                     <h4>Connect</h4>
                     <ul>
@@ -190,9 +210,6 @@
 </div>
 
 
-<script src="{{url('js/vendor/jquery-2.2.4.min.js')}}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="{{url('js/vendor/bootstrap.min.js')}}"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 <script src="{{url('js/easing.min.js')}}"></script>
 <script src="{{url('js/hoverIntent.js')}}"></script>

@@ -20,10 +20,10 @@ Auth::routes();
 
 Route::get('/','PublicController@index')->name('frontend.home');
 Route::get('about','PublicController@about')->name('frontend.about');
-Route::get('causes','PublicController@causes')->name('frontend.causes');
-Route::get('cause/{cause}','PublicController@causeDetails')->name('frontend.cause.details');
+Route::get('project','PublicController@causes')->name('frontend.causes');
+Route::get('project/{cause}','PublicController@causeDetails')->name('frontend.cause.details');
+Route::get('team','PublicController@team')->name('frontend.team');
 Route::get('contact','PublicController@contact')->name('frontend.contact');
-
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('logout','HomeController@logout');
