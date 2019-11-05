@@ -116,7 +116,7 @@
 {{--            </div>--}}
 
 
-            <div class="col-lg-4 col-md-4 col-sm-4 offset-4">
+            <div class="col-lg-4 col-md-4 col-sm-4 offset-md-4">
                 <div class="single-footer-widget">
                     <h4>Connect</h4>
                     <ul>
