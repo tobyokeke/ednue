@@ -77,7 +77,10 @@
             <div class="menu-content pb-30 col-lg-8">
                 <div class="title text-center">
                     <h1 class="mb-10">Our Philosophy</h1>
-                    <p>There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring.</p>
+                    <p>
+                        Our philosophy is to create solutions that foster development in the society by educating the community and positively shaping the mindset and perspectives thereby
+                        ensuring a better future.
+                    </p>
                 </div>
             </div>
         </div>
@@ -87,7 +90,7 @@
         <div class="container">
             <div class="title text-center">
                 <h1 class="mb-10">Projects</h1>
-                <p>There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring.</p>
+                <p>We are passionate about driving the conversations around the topics below to ensure we orient the public mentality to the societal ideals.</p>
             </div>
 
             <div class="row align-items-center">

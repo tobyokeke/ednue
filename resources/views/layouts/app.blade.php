@@ -37,6 +37,7 @@
 
 </head>
 <body>
+<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
 <header id="header" id="home">
     <div class="header-top">
         <div class="container">
@@ -210,6 +211,10 @@
 </div>
 
 
+<div id="mobile-body-overly" style="display: none;"></div>
+
+<script src="{{url('js/jquery.min.js')}}"></script>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 <script src="{{url('js/easing.min.js')}}"></script>
 <script src="{{url('js/hoverIntent.js')}}"></script>
@@ -223,7 +228,6 @@
 <script src="{{url('js/main.js')}}"></script>
 
 <link rel="stylesheet" href="{{url('css/daterangepicker.css')}}">
-<script src="{{url('js/jquery.min.js')}}"></script>
 <script src="{{url('js/bootstrap.min.js')}}"></script>
 <script src="{{url('js/moment.js')}}"></script>
 <script src="{{url('js/daterangepicker.js')}}"></script>

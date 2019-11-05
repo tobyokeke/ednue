@@ -1,1 +1,0 @@
-[{"src":"http://www.afamnriconsulting.com.ng/public/userUploads/0TUDH20170728_141657.jpg","w":1200,"h":900},{"src":"http://www.afamnriconsulting.com.ng/public/userUploads/tcqGF20170728_141718.jpg","w":1200,"h":900},{"src":"http://www.afamnriconsulting.com.ng/public/userUploads/o9H4t20170728_142015.jpg","w":1200,"h":900}]

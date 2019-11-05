@@ -25,14 +25,17 @@
             <div class="menu-content pb-30 col-lg-8">
                 <div class="title text-center">
                     <h1 class="mb-10">Our Philosophy</h1>
-                    <p>There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring There is a moment in the life of any aspiring.</p>
+                    <p>
+                        Our philosophy is to create solutions that foster development in the society by educating the community and positively shaping the mindset and perspectives thereby
+                        ensuring a better future.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Start info Area -->
     <section class="info-area pb-120">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 no-padding info-area-left">
                     <img class="img-fluid" src="img/about-img.jpg" alt="">
@@ -96,7 +99,7 @@
     <!-- End course-mission Area -->
     <!-- Start info Area -->
     <section class="info-area pb-120">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 no-padding info-area-left">
                     <img class="img-fluid" src="img/about-img2.jpg" alt="">

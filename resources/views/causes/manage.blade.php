@@ -42,21 +42,25 @@
                         The Ednue foundation Team toured around different registration points around Abuja to Educate the spectators on The importance of all votes and help out the officials in controlling  the crowd to carry out an organized registration while also selflessly providing essentials for some processes .
                     </p>
                     <br>
-                    <a  id="openGallery1" href="#" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                    <a  id="openGallery1" href="#" class="mb-2 genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
                 </div>
 
             </div>
             <div class="row align-items-center">
+                <div class="d-lg-none col-lg-6 no-padding info-area-left">
+                    <img class="img-fluid" src="{{url('images/conference/1.jpg')}}" alt="">
+                </div>
+
                 <div class="col-lg-6 info-area-right pl-3">
                     <h1>Ednue Annual Conference : voting for socio economic development</h1>
                     <p>
                         The Ednue foundations Annual conference Aimed at educating young people on the effects of voting right and its importance to the socio economic development for an inspired future that would foster ideal social Excellence for growth .
                     </p>
                     <br>
-                    <a href="#" id="openGallery2" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#" id="openGallery2" class="mb-2 genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
                 </div>
 
-                <div class="col-lg-6 no-padding info-area-left">
+                <div class="d-none d-md-none d-lg-block col-lg-6 no-padding info-area-left">
                     <img class="img-fluid" src="{{url('images/conference/1.jpg')}}" alt="">
                 </div>
 
@@ -71,21 +75,25 @@
                         The Ednue foundation at the Fbs ole football tournament educated young spectators on why they had to be interested in getting a pvc by offering a bottle of water to stay hydrated at the venue if you were interested in getting registered or just had your card ready , Ednue foundation also provided spectators with important information to aid all efforts of future registration ,and kept over 250 people hydrated and informed.
                     </p>
                     <br>
-                    <a href="#" id="openGallery3" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#" id="openGallery3" class="mb-2 genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
                 </div>
 
             </div>
             <div class="row align-items-center">
+                <div class="d-lg-none col-lg-6 no-padding info-area-left">
+                    <img class="img-fluid" src="{{url('images/health/1.jpg')}}" alt="">
+                </div>
+
                 <div class="col-lg-6 info-area-right pl-3">
                     <h1>Mental Health Awareness </h1>
                     <p>
                         The Ednue foundation orgaanized an art and photography gala  that was aimed at inspiring hope for depressed people and also a free opportunity to get educated on how to manage, cure and help people in depression by our robust team of professional psychologists and guidance and counseling personnel .
                     </p>
                     <br>
-                    <a href="#" id="openGallery4" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#" id="openGallery4" class="mb-2 genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
                 </div>
 
-                <div class="col-lg-6 no-padding info-area-left">
+                <div class="d-none d-md-none d-lg-block col-lg-6 no-padding info-area-left">
                     <img class="img-fluid" src="{{url('images/health/1.jpg')}}" alt="">
                 </div>
 
@@ -100,7 +108,7 @@
                         The Ednue team was invited by the Sdg story to present their beautiful work and share how they have been making an impact with all their initiatives and programs over the year ,to inspire a new generation of young people with the interest of fostering development and making an impact in the society.
                     </p>
                     <br>
-                    <a href="#" id="openGallery5" class="genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#" id="openGallery5" class="mb-2 genric-btn danger circle arrow">View Gallery<span class="lnr lnr-arrow-right"></span></a>
                 </div>
 
             </div>
