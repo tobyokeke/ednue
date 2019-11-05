@@ -50,7 +50,7 @@
                         </div>
                         <div class="desc-wrap">
                             <p>
-                                To become an avenue that connects the society to able ideal system of order , to become a key partner of an ideal african community with significance contributions ,Relevant influence and Excellent practical Solutions for social Education and Development .
+                                To become an avenue that connects the society to an ideal system of order , to become a key partner of an ideal african community with significant contributions ,Relevant influence and Excellent practical Solutions for social Education and Development.
                             </p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="desc-wrap">
                             <p>
-                                Educating the society on core social issues , Training the human capital for Resourceful Economic contribution through skills acquisition and innovation , impacting the mind of the society through ideal initiatives and programs with mental analysis for development.
+                                Educating the society on core social issues , Training the human capital for Resourceful Economic contribution through skill acquisition and innovation , impacting the mind of the society through ideal initiatives and programs with mental analysis for development
                             </p>
                         </div>
                     </div>

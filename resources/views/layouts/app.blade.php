@@ -198,8 +198,11 @@
                             <textarea class="form-control mb-10" rows="5" name="address" placeholder="Enter Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Address'" required=""></textarea>
                         </div>
                         <div class="form-group">
-                            <label style="font-size: 14px;">Politics/ Economy or Popular Culture (pop culture ).<br>
-                                If you had one wish, what would you change about Nigeria ?</label>
+                            <label style="font-size: 14px;">Politics/ Economy or Popular Culture (pop culture)?</label>
+                            <input class="form-control mb-10" name="pop" placeholder="Enter Answer" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Answer'" required="">
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 14px;">If you had one wish, what would you change about Nigeria ?</label>
                             <textarea class="form-control mb-10" rows="5" name="wish" placeholder="Enter Answer" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Answer'" required=""></textarea>
                         </div>
                         <button class="mt-40 text-uppercase genric-btn primary text-center">Submit form</button>

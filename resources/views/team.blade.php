@@ -29,14 +29,14 @@
                 </p>
             </div>
 
-            <div class="row">
-                <div class="row col-4 align-items-center">
+            <div class="row" align="center" style="text-align: center">
+                <div class="row col-md-4 align-items-center">
                     <div class="col-12 no-padding info-area-left p-0">
                         <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
                     </div>
                     <div class="col-12 info-area-right p-0">
                         <h1>AHMED</h1>
-                        <p>
+                        <p style="text-align: center">
                             Bio goes here
                         </p>
                         <br>
@@ -45,13 +45,13 @@
 
                 </div>
 
-                <div class="row col-4 align-items-center">
+                <div class="row col-md-4 align-items-center">
                     <div class="col-12 no-padding info-area-left p-0">
                         <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
                     </div>
                     <div class="col-12 info-area-right p-0">
                         <h1>ADAMS</h1>
-                        <p>
+                        <p style="text-align: center">
                             Bio goes here
                         </p>
                         <br>
@@ -60,13 +60,13 @@
 
                 </div>
 
-                <div class="row col-4 align-items-center">
+                <div class="row col-md-4 align-items-center">
                     <div class="col-12 no-padding info-area-left p-0">
                         <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
                     </div>
                     <div class="col-12 info-area-right p-0">
                         <h1>AHMED</h1>
-                        <p>
+                        <p style="text-align: center">
                             Bio goes here
                         </p>
                         <br>

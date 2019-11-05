@@ -103,6 +103,7 @@ class PublicController extends Controller
 		$member->phone = $request->input('phone');
 		$member->email = $request->input('email');
 		$member->dob = $request->input('dob');
+		$member->pop = $request->input('pop');
 		$member->politically_inclined = $request->input('politically_inclined');
 		$member->highest_education = $request->input('highest_education');
 		$member->address = $request->input('address');

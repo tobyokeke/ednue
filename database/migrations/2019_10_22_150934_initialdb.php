@@ -32,8 +32,9 @@ class Initialdb extends Migration
 	    Schema::create('members', function(Blueprint $table){
 	        $table->increments('mid');
 	        $table->string('name');
-	        $table->string('phone',191)->unique();
-	        $table->string('email',191)->unique();
+	        $table->string('phone',191);
+	        $table->string('email',191);
+	        $table->string('pop')->nullable();
 	        $table->string('dob')->nullable();
 	        $table->string('address',2000)->nullable();
 	        $table->string('politically_inclined')->nullable();

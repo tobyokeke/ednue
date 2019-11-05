@@ -1,10 +1,10 @@
 <div class="container">
     @if(session()->has('success'))
-        <div id="notification" class="alert alert-success" style="background-color:lightgreen;color:black;margin-bottom: -120px;margin-top:120px;" align="center">{{Session::get('success')}}</div>
+        <div id="notification" class="alert alert-success" style="background-color:lightgreen;color:black;margin-bottom: -120px;margin-top:120px;z-index: 999999;" align="center">{{Session::get('success')}}</div>
     @endif
 
     @if(session()->has('error'))
-        <div id="notification" class="alert alert-danger" style="margin-bottom: -120px;margin-top:120px;" align="center">{{Session::get('error')}}</div>
+        <div id="notification" class="alert alert-danger" style="margin-bottom: -120px;margin-top:120px;z-index: 999999;" align="center">{{Session::get('error')}}</div>
     @endif
 
     <script>
