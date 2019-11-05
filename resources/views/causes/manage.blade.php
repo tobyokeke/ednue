@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','Causes')
+@section('title','Projects')
 
 @section('content')
     <link href="{{url('css/photoswipe.css')}}" rel="stylesheet">

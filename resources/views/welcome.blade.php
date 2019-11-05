@@ -98,14 +98,12 @@
                     <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
                 </div>
                 <div class="col-lg-6 info-area-right">
-                    <h1>Education</h1>
                     <p>
-                        Ednue foundation is an initiative committed to Creating Solutions that foster development in the society by Educating the community and positively shaping the mindset and perspectives through carefully designed programs , with a robust team of Passionate Creatives, highly experienced Economist and psychologists,
-                        social Issues are analysed and carefully presented to the team for a special approach to tackling human capital deficit , ideal citizen participation and productivity , contribution to Sustainable social stability in the community, and  ideal service delivery in governance all through Key programs in free social Education  ,
-                        through our Excelleny volunteer network we also offer free ideal opportunities to positively impact on the human capital through vocational skills acquisition, Internship services, and Tutoring services.
+                        We have a lot of projects we embark on to ensure we achieve our goals. We are constantly
+                        creating more programs and events.
                     </p>
                     <br>
-                    <a href="{{route('frontend.cause.details',['cause' => 'education'])}}" class="genric-btn danger circle arrow">Learn More<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="{{route('frontend.causes')}}" class="genric-btn danger circle arrow">View our Projects<span class="lnr lnr-arrow-right"></span></a>
                 </div>
 
             </div>

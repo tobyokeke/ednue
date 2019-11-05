@@ -20,7 +20,7 @@ Auth::routes();
 
 Route::get('/','PublicController@index')->name('frontend.home');
 Route::get('about','PublicController@about')->name('frontend.about');
-Route::get('project','PublicController@causes')->name('frontend.causes');
+Route::get('projects','PublicController@causes')->name('frontend.causes');
 Route::get('project/{cause}','PublicController@causeDetails')->name('frontend.cause.details');
 Route::get('team','PublicController@team')->name('frontend.team');
 Route::get('contact','PublicController@contact')->name('frontend.contact');

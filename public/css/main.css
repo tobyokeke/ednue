@@ -1748,13 +1748,16 @@ h6 {
 }
 #header.header-scrolled {
  transition:all 0.5s;
- background-color:rgba(0,0,0,0.9);
+ background-color:rgba(0,0,0,0.6);
  /*! color: #fff !important; */
 }
 #header.header-scrolled .main-menu {
  border-color:transparent
 }
 @media (max-width: 673px) {
+    .feature-area{
+        padding:0 !important;
+    }
  #logo {
   margin-left:20px
  }
