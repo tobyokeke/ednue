@@ -6,11 +6,11 @@
     <!-- Favicon-->
     <link rel="shortcut icon" href="{{url('img/fav.png')}}">
     <!-- Author Meta -->
-    <meta name="author" content="colorlib">
+    <meta name="author" content="www.github.com/tobyokeke">
     <!-- Meta Description -->
-    <meta name="description" content="">
+    <meta name="description" content="Ednue foundation is an initiative committed to creating solutions that foster development in the society">
     <!-- Meta Keyword -->
-    <meta name="keywords" content="">
+    <meta name="keywords" content="ednue, ednue foundation, spotacle, abuja, nigeria, ngo">
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
@@ -127,9 +127,10 @@
             </div>
         </div>
         <div class="footer-bottom row align-items-center justify-content-between">
-            <p class="footer-text m-0 col-lg-6 col-md-12">
-                Copyright by <a href="https://ednue.com" target="_blank">Ednue</a> &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="{{route('login')}}">Login</a></p>
-            <div class="col-lg-6 col-sm-12 footer-social">
+            <p class="footer-text m-0 col-lg-8 col-md-12">
+                Developed by <a href="https://github.com/tobyokeke">Toby</a> |
+                Copyright by <a href="https://ednue.com" target="_blank">Ednue</a> &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="{{route('login')}}">Login</a> </p>
+            <div class="col-lg-4 col-sm-12 footer-social">
                 <a href="http://www.facebook.com/ednue_inc"><i class="fa fa-facebook"></i></a>
                 <a href="http://www.twitter.com/ednue_inc"><i class="fa fa-twitter"></i></a>
 
