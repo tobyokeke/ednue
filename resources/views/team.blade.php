@@ -30,47 +30,82 @@
             </div>
 
             <div class="row" align="center" style="text-align: center">
-                <div class="row col-md-4 align-items-center">
-                    <div class="col-12 no-padding info-area-left p-0">
-                        <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
+                <div class="row col-md-4  align-items-center">
+                    <div class="col-12  info-area-left p-1">
+                        <img class="img-fluid" src="{{url('images/team/founder.jpg')}}" alt="">
                     </div>
                     <div class="col-12 info-area-right p-0">
-                        <h1>AHMED</h1>
+                        <h1>Ahmad Tubo</h1>
                         <p style="text-align: center">
-                            Bio goes here
+                            Founder
                         </p>
-                        <br>
-{{--                        <a href="{{route('frontend.cause.details',['cause' => "education"])}}" class="genric-btn danger circle arrow">Learn More<span class="lnr lnr-arrow-right"></span></a>--}}
                     </div>
 
                 </div>
 
                 <div class="row col-md-4 align-items-center">
-                    <div class="col-12 no-padding info-area-left p-0">
-                        <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
+                    <div class="col-12  info-area-left p-1">
+                        <img class="img-fluid" src="{{url('images/team/socials.jpg')}}" alt="">
                     </div>
                     <div class="col-12 info-area-right p-0">
-                        <h1>ADAMS</h1>
+                        <h1>Adams Godswill</h1>
                         <p style="text-align: center">
-                            Bio goes here
+                            Corporate Service Manager
                         </p>
-                        <br>
-{{--                        <a href="{{route('frontend.cause.details',['cause' => "education"])}}" class="genric-btn danger circle arrow">Learn More<span class="lnr lnr-arrow-right"></span></a>--}}
                     </div>
 
                 </div>
 
                 <div class="row col-md-4 align-items-center">
-                    <div class="col-12 no-padding info-area-left p-0">
+                    <div class="col-12 info-area-left p-1">
+                        <img class="img-fluid" src="{{url('images/team/creative.jpg')}}" alt="">
+                    </div>
+                    <div class="col-12 info-area-right p-0">
+                        <h1>Mustapha sidi</h1>
+                        <p style="text-align: center">
+                            Creative Director
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row" align="center" style="text-align: center">
+                <div class="row col-md-4 align-items-center">
+                    <div class="col-12 info-area-left p-1">
+                        <img class="img-fluid" src="{{url('images/team/socials.jpg')}}" alt="">
+                    </div>
+                    <div class="col-12 info-area-right p-0">
+                        <h1>Imam Jabir</h1>
+                        <p style="text-align: center">
+                            Director of social behavior and cultural norms
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="row col-md-4 align-items-center">
+                    <div class="col-12 info-area-left p-1">
                         <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
                     </div>
                     <div class="col-12 info-area-right p-0">
-                        <h1>AHMED</h1>
+                        <h1>Muhammad bello</h1>
                         <p style="text-align: center">
-                            Bio goes here
+                            Public relations manager
                         </p>
-                        <br>
-{{--                        <a href="{{route('frontend.cause.details',['cause' => "education"])}}" class="genric-btn danger circle arrow">Learn More<span class="lnr lnr-arrow-right"></span></a>--}}
+                    </div>
+
+                </div>
+
+                <div class="row col-md-4 align-items-center">
+                    <div class="col-12 info-area-left p-1">
+                        <img class="img-fluid" src="{{url('img/education.jpg')}}" alt="">
+                    </div>
+                    <div class="col-12 info-area-right p-0">
+                        <h1>Nafisa Abdulazeez</h1>
+                        <p style="text-align: center">
+                            Legal Director
+                        </p>
                     </div>
 
                 </div>
