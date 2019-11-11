@@ -21,7 +21,7 @@ class PublicController extends Controller
 		$requiredImages1 = array();
 
 
-		for($i =1; $i <= 23; $i++ ){
+		for($i =1; $i <= 49; $i++ ){
 			$url = url("images/conference/$i.jpg");
 			$image = ['src' => $url,'w' =>1200, 'h' =>900  ];
 			array_push($requiredImages1,$image);

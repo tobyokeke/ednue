@@ -207,8 +207,6 @@
 
             function openGallery(items) {
 
-                console.log('clicked');
-
 
                 var pswpElement = document.querySelectorAll('.pswp')[0];
 
