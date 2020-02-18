@@ -45,7 +45,7 @@
 
                 <div class="row col-md-4 align-items-center">
                     <div class="col-12  info-area-left p-1">
-                        <img class="img-fluid" src="{{url('images/team/socials.jpg')}}" alt="">
+                        <img class="img-fluid" src="{{url('images/team/adams.jpg')}}" alt="">
                     </div>
                     <div class="col-12 info-area-right p-0">
                         <h1>Adams Godswill</h1>
